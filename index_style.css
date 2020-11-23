@@ -10,7 +10,14 @@ left: 0;
 background-color: #f5b791;
 overflow-x: hidden;
 padding-top: 60px;
-border: 10px double ;
+border: 5px double ;
+}
+ .navlabel{
+   text-decoration: underline;
+   font-size: 25px;
+   color: black;
+  text-align:center;
+  font-family:"Courier New";
 }
 
 .sidenav a {
@@ -18,9 +25,9 @@ border: 10px double ;
   text-decoration: none;
   font-size: 20px;
   color: black;
-  display: block;
-  line-height: 50px;
-    font-family:"Courier New";
+  display:block;
+  line-height: 100px;
+  font-family:"Courier New";
 
 }
 .sidenav a:hover {
@@ -37,20 +44,39 @@ border: 10px double ;
 }
 /*body*/
 body {
-background-image:url("https://i.ibb.co/4sRX1MD/d7q3qmp-7ce19228-dd9f-42a9-ad31-dd53c6d48a26.jpg");
-background-color:gray
+background-color:gray;
+overflow:hidden;
+  background-image:url("https://i.ibb.co/4sRX1MD/d7q3qmp-7ce19228-dd9f-42a9-ad31-dd53c6d48a26.jpg")
+
+}
+/*entire page*/
+.wrapper{
+  display:flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .middle-content{
-  display:block;
+  font-weight:bold;
+  height:550px;
+  width:100%;
+  border: 2px solid white;
+  opacity:0.8;
+
+;
+
+}
+.image-container{
   width:500px;
   height: 400px;
-  border: 2px solid white;
-  border-radius: 10px;
-  background-color:gray;
+  border: 2px dotted white;
+  border-radius: 7px;
+  background-color:#02d6d9;
   color:black;
-  margin-left: 100px;
+  float:right;
   text-align:center;
+  margin-top:100px;
+  margin-right:50px;
 
 }
 
@@ -58,9 +84,11 @@ background-color:gray
 
 /*headers*/
 h1 {
+
+  text-shadow: 2px 2px #02d6d9;
   padding-left:60px;
   color:white;
-  size:100px;
+  font-size:45px;
   font-family:"Courier New";
 
 
