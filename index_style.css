@@ -10,14 +10,17 @@ left: 0;
 background-color: #f5b791;
 overflow-x: hidden;
 padding-top: 60px;
-border: 5px double ;
+border: 5px double;
+  opacity:0.8;
 }
  .navlabel{
-   text-decoration: underline;
-   font-size: 25px;
-   color: black;
+  text-decoration: underline;
+  font-size: 25px;
+  color: black;
   text-align:center;
   font-family:"Courier New";
+
+
 }
 
 .sidenav a {
