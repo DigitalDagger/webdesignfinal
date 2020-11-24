@@ -11,7 +11,7 @@ background-color: #f5b791;
 overflow-x: hidden;
 padding-top: 60px;
 border: 5px double;
-  opacity:0.8;
+opacity:0.9;
 }
  .navlabel{
   text-decoration: underline;
@@ -20,24 +20,28 @@ border: 5px double;
   text-align:center;
   font-family:"Courier New";
 
-
 }
+
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
+  line-height: 70px;
+  font-family:"Courier New";
   text-decoration: none;
   font-size: 20px;
   color: black;
   display:block;
-  line-height: 100px;
-  font-family:"Courier New";
-
 }
 .sidenav a:hover {
   color: #008080;
 
 }
+.sidenav a:visited {
 
+  font-weight:bold;
+
+
+}
 
 /*Responsive code*/
 @media screen and (max-width: 800px) {
@@ -71,27 +75,47 @@ overflow:hidden;
 
 }
 .image-container{
-  width:50%;
-  height: 70%;
+  width:40%;
+  height: 60%;
   border: 2px dotted white;
   border-radius: 7px;
   background-color:#02d6d9;
   color:black;
   float:right;
+  top:100px;
+  position:absolute;
   text-align:center;
   margin-top:100px;
   margin-right:50px;
+margin-left:400px;
 
 }
 
+.text-container{
+  width:20%;
+  height: 40%;
+  border: 2px dotted white;
+  border-radius: 7px;
+  background-color:#90ee90;
+  color:black;
+  float:left;
+  text-align:center;
+  margin-top:100px;
+  margin:30px;
+  padding:50px;
+  font-family:"Courier New";
+  line-height: 20px;
+
+
+}
 
 
 /*headers*/
 h1 {
 
-  text-shadow: 2px 2px #02d6d9;
+  text-shadow: 2px 2px #006400;
   padding-left:60px;
-  color:white;
+  color: #f5b791;
   font-size:45px;
   font-family:"Courier New";
 
