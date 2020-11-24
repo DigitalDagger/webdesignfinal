@@ -52,7 +52,7 @@ opacity:0.9;
 /*body*/
 body {
 background-color:gray;
-overflow:hidden;
+
   background-image:url("https://i.ibb.co/4sRX1MD/d7q3qmp-7ce19228-dd9f-42a9-ad31-dd53c6d48a26.jpg")
 
 }
@@ -63,7 +63,7 @@ overflow:hidden;
   flex-wrap:wrap;
 
 }
-
+/*Right Container*/
 .middle-content{
   font-weight:bold;
   height:550px;
@@ -72,7 +72,7 @@ overflow:hidden;
   opacity:0.8;
 
 ;
-
+/*Right Image Container*/
 }
 .image-container{
   width:40%;
@@ -90,13 +90,13 @@ overflow:hidden;
 margin-left:400px;
 
 }
-
+/*left Container */
 .text-container{
   width:20%;
   height: 40%;
   border: 2px dotted white;
   border-radius: 7px;
-  background-color:#90ee90;
+  background-color:#159897;
   color:black;
   float:left;
   text-align:center;
@@ -105,18 +105,16 @@ margin-left:400px;
   padding:50px;
   font-family:"Courier New";
   line-height: 20px;
-
-
 }
 
 
-/*headers*/
+/*Main header*/
 h1 {
 
-  text-shadow: 2px 2px #006400;
+  text-shadow: 2px 4px #006400;
   padding-left:60px;
-  color: #f5b791;
-  font-size:45px;
+  color: white;
+  font-size:55px;
   font-family:"Courier New";
 
 
