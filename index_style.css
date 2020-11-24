@@ -55,8 +55,9 @@ overflow:hidden;
 /*entire page*/
 .wrapper{
   display:flex;
-  flex-direction: column;
-  overflow: hidden;
+  flex-direction:row-reverse;
+  flex-wrap:wrap;
+
 }
 
 .middle-content{
@@ -70,8 +71,8 @@ overflow:hidden;
 
 }
 .image-container{
-  width:500px;
-  height: 400px;
+  width:50%;
+  height: 70%;
   border: 2px dotted white;
   border-radius: 7px;
   background-color:#02d6d9;
