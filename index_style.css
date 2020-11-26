@@ -47,12 +47,7 @@ opacity:0.9;
 
 }
 
-/*Responsive code*/
-@media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-}
+
 /*body*/
 body {
 background-color:gray;
